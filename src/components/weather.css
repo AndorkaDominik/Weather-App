@@ -94,3 +94,66 @@
     background-color: #874fe0;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .weather{
+        padding: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .weather{
+        padding: 40px 5px;
+        width: 100%;
+    }
+    .search-bar input{
+        width: 100%;
+        font-size: 16px;
+        padding-left: 17px;
+    }
+    .weather-icon{
+        width: 130px;
+        margin: 20px 0;
+    }
+    .temperature{
+        font-size: 60px;
+    }
+    .location{
+        font-size: 30px;
+    }
+    .weather-data .col{
+        font-size: 18px;
+        flex-direction: column;
+    }
+    .left{
+        padding-left: 40px;
+    }
+    .right{
+        padding-right: 40px;
+    }
+    .language-selector button{
+        padding: 12px 20px;
+    }
+}
+
+@media (max-width: 305px) {
+    
+    .search-bar input{
+        padding-left: 6px;
+    }
+    
+    .left {
+            padding-left: 10px;
+        }
+    
+    .right {
+        padding-right: 10px;
+    }
+    .language-selector button {
+        padding: 12px 15px;
+    }
+
+    .weather-data .col span{
+        font-size: 14px;
+    } 
+}

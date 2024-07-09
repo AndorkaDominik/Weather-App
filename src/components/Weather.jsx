@@ -96,14 +96,14 @@ const Weather = () => {
           <p className='temperature'>{weatherData.temperature}°C</p>
           <p className='location'>{weatherData.location}</p>
           <div className="weather-data">
-            <div className="col">
+            <div className="col left">
               <img src={humidity_icon} alt="Humidity" />
               <div>
                 <p>{weatherData.humidity}%</p>
                 <span>{translations[language].humidity}</span>
               </div>
             </div>
-            <div className="col">
+            <div className="col right">
               <img src={wind_icon} alt="Wind Speed" />
               <div>
                 <p>{weatherData.windSpeed} Km/h</p>
